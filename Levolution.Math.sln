@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levolution.Math.Net35", "Levolution.Math.Net35\Levolution.Math.Net35.csproj", "{E025D4E9-2B63-4D9B-A802-32B3F699DAD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levolution.Math.Pcl", "Levolution.Math.Pcl\Levolution.Math.Pcl.csproj", "{15A9BFE9-B7D7-4F1C-853C-9636A802776C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Levolution.Math.Shared", "Levolution.Math.Shared\Levolution.Math.Shared.shproj", "{9CF4F0A6-EDD6-4D0B-BD23-106083723348}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Levolution.Math.Shared\System.Math.Shared.projitems*{e025d4e9-2b63-4d9b-a802-32b3f699dad8}*SharedItemsImports = 4
+		Levolution.Math.Shared\System.Math.Shared.projitems*{15a9bfe9-b7d7-4f1c-853c-9636a802776c}*SharedItemsImports = 4
+		Levolution.Math.Shared\System.Math.Shared.projitems*{9cf4f0a6-edd6-4d0b-bd23-106083723348}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E025D4E9-2B63-4D9B-A802-32B3F699DAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E025D4E9-2B63-4D9B-A802-32B3F699DAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E025D4E9-2B63-4D9B-A802-32B3F699DAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E025D4E9-2B63-4D9B-A802-32B3F699DAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A9BFE9-B7D7-4F1C-853C-9636A802776C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A9BFE9-B7D7-4F1C-853C-9636A802776C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A9BFE9-B7D7-4F1C-853C-9636A802776C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A9BFE9-B7D7-4F1C-853C-9636A802776C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
